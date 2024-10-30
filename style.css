@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    line-height: 1.6; /* Improve readability */
+    margin: 0;
+    padding: 0;
+    background-color: #5c9da8; /* Light background color */
+}
+
+/* Style the navigation bar */
+nav {
+    background: #292a2b; /* Dark background for the nav */
+    color: #fff; /* White text color */
+    padding: 1rem; /* Add padding around the nav */
+}
+
+nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space out nav items */
+}
+
+nav ul li a {
+    color: #fff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.2rem; /* Slightly larger text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+/* Style the main header */
+h1 {
+    text-align: center; /* Center align the main header */
+    color: #333; /* Dark text color for contrast */
+    margin-top: 1rem; /* Add top margin */
+}
+
+/* Style the secondary header */
+h3 {
+    text-align: center; /* Center align the secondary header */
+    color: #666; /* Lighter text color for the subheading */
+}
+
+p {
+    width: 80%;
+    max-width: 800px; /* Restrict paragraph width for readability */
+    margin: 20px auto; /* Center the paragraph and add spacing */
+    padding: 0 10px; /* Add padding inside the paragraph */
+    color: #070707; /* Slightly darker text color for contrast */
+    text-align: center; /* Center the paragraph text */
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+        body {
+    font-family: Arial, sans-serif; /* Clean and readable font */
+    line-height: 1.6; /* Improve readability */
+    margin: 0;
+    padding: 0;
+    background-color: #b0c2c2; /* Light background color */
+}
+
+/* Style the main container for contact sections */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style each contact section */
+.address, .phone, .email, .message {
+    background: #94e3e7; /* White background for each section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    margin: 10px 0; /* Space between sections */
+    width: 100%;
+    max-width: 600px; /* Restrict width for better readability */
+    display: flex;
+    align-items: center;
+}
+
+/* Style icons */
+i {
+    font-size: 24px; /* Large icons */
+    color: #333; /* Dark color for icons */
+    margin-right: 15px; /* Space between icon and text */
+}
+
+/* Style the topic heading */
+.topic {
+    font-size: 1.5rem; /* Larger text for headings */
+    font-weight: bold;
+    margin-bottom: 5px; /* Space below the heading */
+}
+
+/* Style address and other details */
+.a, .b, .text-one, .c {
+    font-size: 1rem; /* Regular text size */
+    color: #666; /* Slightly lighter color for details */
+}
+
+/* Style form container */
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style form inputs and button */
+input[type="text"], input[type="email"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside the inputs */
+    margin-bottom: 10px; /* Space between inputs */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    background-color: #333; /* Dark background for button */
+    color: #fff; /* White text color */
+    font-size: 1rem; /* Regular text size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style button on hover */
+button:hover {
+    background-color: #555; /* Slightly lighter background on hover */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address: </div>
+            <div class="a">Throwpathi Amman Kovil 1st Street</div>
+            <div class="b">K.Pudur, Madurai-07</div>
+        </div>
+        
+        <div class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone:</div>
+            <div class="text-one">123-465-798</div>
+        </div>
+        
+        <div class="email">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email:</div>
+            <div class="c">atharshni08@gmail.com</div>
+        </div>
+        
+        <div class="message">
+            <div class="e">Send us a message.</div>
+            <div class="f">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="g">
+                <input type="email" placeholder="Enter your email">
+            </div>
+            <div class="r">
+                <button>Send me!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
